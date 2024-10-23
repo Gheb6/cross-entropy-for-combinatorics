@@ -1,8 +1,8 @@
 <!-- https://www.markdownguide.org/basic-syntax/ -->
 # Definizioni Utili
-Una **rete neurale** è un modello computazionale ispirato al funzionamento del cervello umano. È utilizzata nel campo dell’intelligenza artificiale e del machine learning per risolvere problemi complessi. Ecco una spiegazione più dettagliata:
+Una **Rete Neurale** è un modello computazionale ispirato al funzionamento del cervello umano. È utilizzata nel campo dell’intelligenza artificiale e del machine learning per risolvere problemi complessi. Ecco una spiegazione più dettagliata:
 
-Struttura di una Rete Neurale
+#### Struttura di una Rete Neurale
 
 Nodi o Neuroni: Le reti neurali sono composte da nodi, chiamati anche neuroni artificiali, che sono organizzati in livelli.
 
@@ -14,7 +14,7 @@ Livelli: Una rete neurale tipica ha tre tipi di livelli:
 
 3. Livello di Output: Fornisce il risultato finale dell’elaborazione.
 
-Funzionamento:
+#### Funzionamento:
 
 Connessioni e Pesi: Ogni connessione tra neuroni ha un peso associato che determina l’importanza del segnale. I pesi vengono regolati durante l’addestramento per migliorare le prestazioni del modello.
 
