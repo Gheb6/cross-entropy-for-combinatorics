@@ -3,16 +3,16 @@
                 dynamics, and functions of complex graph networks
 
 nel codice:
-- G = nx.Graph() ## Costruisce grafo indiretto: ignora archi multipli, ma permette "cappi"/ self loop
-- G.add_nodes_from(list(range(N)))  ##Aggiunge N nodi al grafo G. I nodi sono numerati da 0 a N-1
-- nx.is_connected(G) grafo connesso?
-- nx.adjacency_matrix(G).todense()
+- G = nx.Graph() ## Costruisce grafo indiretto: ignora archi multipli, ma permette "cappi"/ self loop ##riga 95
+- G.add_nodes_from(list(range(N)))  ##Aggiunge N nodi al grafo G. I nodi sono numerati da 0 a N-1     ##riga 96
+- nx.is_connected(G) grafo connesso? ##riga 105
+- nx.adjacency_matrix(G).todense()                                                                    ##riga 109
     1)nx.adjacency_matrix(G): Questa parte della funzione genera la matrice di adiacenza del grafo G.
     2).todense(): Questo metodo converte la matrice di adiacenza, che inizialmente è in formato sparso (efficiente per grafi di grandi dimensioni), 
     in una matrice densa (una matrice standard di NumPy o similare, con tutti i valori esplicitamente rappresentati).
 
--nx.max_weight_matching(G) ##trova matching number
--nx.draw_kamada_kawai(G)
+-nx.max_weight_matching(G) ##trova matching number                                                      ##riga 116
+-nx.draw_kamada_kawai(G)                                                                                ##riga 125
   Kamada-Kawai layout: È un algoritmo di disegno di grafi che cerca di posizionare i nodi in modo da minimizzare una funzione di energia che tiene conto delle distanze tra i nodi. 
   L'idea è di trattare ogni arco come una molla, con una lunghezza "ideale" basata sulla distanza geodetica (cioè il numero di archi minimi tra due nodi), 
   cercando di posizionare i nodi in un modo che renda visivamente chiara la struttura del grafo.
