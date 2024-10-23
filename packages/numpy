@@ -23,7 +23,7 @@ trasformate di Fourier, e generazione di numeri casuali.
     converte l’input elite_states in un array NumPy di tipo intero
 
 -super_states =  np.empty((0,len_game,observation_space), dtype = int)
-    crea un array vuoto con una forma specificata e un tipo di dato intero:
-         La prima dimensione è 0, il che significa che l’array inizialmente non contiene elementi lungo questa dimensione.
-         len_game: La lunghezza del gioco o il numero di passi temporali.
-        observation_space: Lo spazio di osservazione per ogni passo temporale
+        crea un array vuoto con una forma specificata e un tipo di dato intero:
+            La prima dimensione è 0, il che significa che l’array inizialmente non contiene elementi lungo questa dimensione.
+            len_game: La lunghezza del gioco o il numero di passi temporali.
+            observation_space: la terza dimensione avrà una lunghezza pari al valore di observation_space
