@@ -1,0 +1,8 @@
+Keras è una libreria open source per il deep learning e le reti neurali, scritta in Python. 
+È progettata per essere facile da usare e modulare, permettendo di costruire e addestrare modelli di deep learning in modo rapido e intuitivo.
+
+Ecco un breve riassunto delle sue caratteristiche principali:
+1)API di alto livello: Keras fornisce un’interfaccia semplice e intuitiva per definire e addestrare modelli di deep learning.
+2)Compatibilità con backend: Supporta diversi motori di calcolo come TensorFlow, Theano e Microsoft Cognitive Toolkit (CNTK), che eseguono i calcoli di basso livello.
+3)Modularità: È altamente modulare, permettendo di combinare diversi moduli (livelli, funzioni di attivazione, ottimizzatori, ecc.) per creare modelli complessi.
+Keras è ampiamente utilizzata sia nella ricerca che nell’industria per sviluppare applicazioni di intelligenza artificiale, grazie alla sua semplicità e flessibilità.
