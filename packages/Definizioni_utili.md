@@ -21,3 +21,6 @@ Connessioni e Pesi: Ogni connessione tra neuroni ha un peso associato che determ
 Funzioni di Attivazione: Ogni neurone applica una funzione di attivazione al suo input per produrre un output. Funzioni comuni includono ReLU (Rectified Linear Unit) e Sigmoid.
 
 Addestramento: Le reti neurali apprendono dai dati di addestramento regolando i pesi delle connessioni per minimizzare l’errore tra l’output previsto e quello reale.
+
+
+![image](https://github.com/user-attachments/assets/eb995298-fe9a-43bd-8a93-14cdbb320419)
