@@ -1,4 +1,4 @@
-__numpy__
+## numpy
 NumPy è una libreria open-source che supporta operazioni matematiche e logiche su array di grandi dimensioni e matrici. 
 È particolarmente utile per l’elaborazione di dati numerici e per l’implementazione di algoritmi scientifici.
 Caratteristiche principali:
