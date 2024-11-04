@@ -22,17 +22,26 @@ Dense è un tipo di livello completamente connesso. Ogni neurone di un livello �
 FIRST_LAYER_NEURONS, SECOND_LAYER_NEURONS, e THIRD_LAYER_NEURONS sono variabili 
 che rappresentano il numero di neuroni nei rispettivi livelli.
 
-activation="relu" specifica la funzione di attivazione ReLU (Rectified Linear Unit) per i primi tre livelli. 
+- activation="relu" specifica la funzione di attivazione ReLU (Rectified Linear Unit) per i primi tre livelli. 
 ReLU è una funzione di attivazione molto comune nelle reti neurali.
 
-model.add(Dense(1, activation="sigmoid"))
+- model.add(Dense(1, activation="sigmoid"))
     L’ultimo livello ha un solo neurone (Dense(1)) con una funzione di attivazione sigmoid, spesso usata per problemi di classificazione binaria.
 
-model.build((None, observation_space))
+- model.build((None, observation_space))
     Definizione forma dell'input del modello. 
     observation_space rappresenta il numero di caratteristiche dell’input. None indica che il modello può accettare un numero variabile di campioni.
 
-model.compile(loss="binary_crossentropy", optimizer=SGD(learning_rate = LEARNING_RATE))
+- model.compile(loss="binary_crossentropy", optimizer=SGD(learning_rate = LEARNING_RATE))
     loss="binary_crossentropy" specifica la funzione di perdita da usare, adatta per problemi di classificazione binaria.
     optimizer=SGD(learning_rate = LEARNING_RATE) indica l’uso dell’ottimizzatore Stochastic Gradient Descent (SGD)
     con un tasso di apprendimento specificato da LEARNING_RATE.
+
+- model.predict(states[:,:,step-1], batch_size = n_sessions)\
+  Il metodo model.predict della libreria Keras viene utilizzato per fare previsioni sui dati di input forniti, basandosi su un modello di rete neurale precedentemente addestrato. Ecco come funziona:\
+    Input: Fornisci i dati di input al metodo model.predict. Questi dati devono essere formattati nello stesso modo in cui erano durante l’addestramento del              modello.\
+    Output: Il metodo restituisce le previsioni del modello. Queste previsioni possono essere classi (per problemi di classificazione) o valori continui (per             problemi di regressione).\
+      La funzione, quindi, restituirà un array con le previsioni per ciascun campione nel batch.
+
+
+  
