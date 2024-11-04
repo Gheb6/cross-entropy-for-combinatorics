@@ -44,4 +44,5 @@ ReLU è una funzione di attivazione molto comune nelle reti neurali.
       La funzione, quindi, restituirà un array con le previsioni per ciascun campione nel batch.
 
 
+[https://keras.io/api/models/model_training_apis/]
   
