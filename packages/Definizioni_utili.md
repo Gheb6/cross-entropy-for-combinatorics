@@ -24,3 +24,9 @@ Addestramento: Le reti neurali apprendono dai dati di addestramento regolando i 
 
 
 ![image](https://github.com/user-attachments/assets/eb995298-fe9a-43bd-8a93-14cdbb320419)
+
+
+
+
+# cross entropy spiegazione
+week01_intro/deep_crossentropy_method.ipynb
