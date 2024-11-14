@@ -27,3 +27,34 @@ trasformate di Fourier, e generazione di numeri casuali.
             La prima dimensione è 0, il che significa che l’array inizialmente non contiene elementi lungo questa dimensione.
             len_game: La lunghezza del gioco o il numero di passi temporali.
             observation_space: la terza dimensione avrà una lunghezza pari al valore di observation_space
+
+  ## Metodo transpose
+  riga 278 states_batch = np.transpose(states_batch,axes=[0,2,1])
+  import numpy as np
+ Matrice 3D con due strati, 3 righe e 4 colonne
+a = np.array([[[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]],
+              [[13, 14, 15, 16], [17, 18, 19, 20], [21, 22, 23, 24]]])
+
+print(a)
+a=np.transpose(a, axes=[0,2,1])  
+print("!")
+print(a)
+
+output:
+[[[ 1  2  3  4]
+  [ 5  6  7  8]
+  [ 9 10 11 12]]
+
+ [[13 14 15 16]
+  [17 18 19 20]
+  [21 22 23 24]]]
+!
+[[[ 1  5  9]
+  [ 2  6 10]
+  [ 3  7 11]
+  [ 4  8 12]]
+
+ [[13 17 21]
+  [14 18 22]
+  [15 19 23]
+  [16 20 24]]]
