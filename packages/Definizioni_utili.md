@@ -1,5 +1,15 @@
 <!-- https://www.markdownguide.org/basic-syntax/ -->
 # Definizioni Utili
+
+## Machine learning
+Il **machine learning** (apprendimento automatico) è un ramo dell’intelligenza artificiale (AI) che si occupa di creare sistemi in grado di apprendere dai dati e migliorare le proprie prestazioni nel tempo senza essere esplicitamente programmati per ogni compito.
+
+Esistono due principali tipi di machine learning:
+
+1. Apprendimento supervisionato: Gli algoritmi vengono addestrati su un set di dati etichettati, dove l’output desiderato è già noto. È come insegnare a un bambino a riconoscere i frutti mostrandogli immagini con i nomi1.
+2. Apprendimento non supervisionato: Gli algoritmi analizzano dati non etichettati per trovare pattern o gruppi nascosti. È come un bambino che impara a distinguere i frutti osservando colori e forme senza sapere i nomi1.
+
+## Rete Neurale
 Una **Rete Neurale** è un modello computazionale ispirato al funzionamento del cervello umano. È utilizzata nel campo dell’intelligenza artificiale e del machine learning per risolvere problemi complessi. Ecco una spiegazione più dettagliata:
 
 #### Struttura di una Rete Neurale
